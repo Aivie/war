@@ -82,38 +82,38 @@ img {
 
 /* -- War animation -- */
 
-/*#warAnimation {*/
-/*	display: none;*/
-/*	font-family: Komtit;*/
-/*	left: 40%;    */
-/*	overflow: hidden;*/
-/*	position: absolute; */
-/*	top: 20%;*/
-/*}*/
-/*.war {*/
-/*	animation: war 2s infinite;*/
-/*}*/
+#warAnimation {
+	display: none;
+	font-family: Komtit;
+	left: 40%;    
+	overflow: hidden;
+	position: absolute; 
+	top: 20%;
+}
+.war {
+	animation: war 2s infinite;
+}
 
-/*@keyframes war {*/
-/*	0% {*/
-/*		color: white; */
-/*		font-size: 10px;*/
-/*	} */
-/*	25% {*/
-/*		color: #CF6766;*/
-/*	} */
-/*	50% {*/
-/*		color: white;*/
-/*	} */
-/*	75% {*/
-/*		color: #CF6766;*/
-/*	} */
-/*	100% {*/
-/*		color: white; */
-/*		font-size: 200px; */
-/*		transform: rotate(720deg);*/
-/*	}*/
-/*}*/
+@keyframes war {
+	0% {
+		color: white; 
+		font-size: 10px;
+	} 
+	25% {
+		color: #CF6766;
+	} 
+	50% {
+		color: white;
+	} 
+	75% {
+		color: #CF6766;
+	} 
+	100% {
+		color: white; 
+		font-size: 200px; 
+		transform: rotate(720deg);
+	}
+}
 
 #repeating {
 	display: none;
