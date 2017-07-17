@@ -52,8 +52,8 @@ function deal() {
 	var img = document.createElement('img');
 	var img2 = document.createElement('img');
 
-	img.src = ("img/cards/" + playerHand[0] + ".png");
-	img2.src = ("img/cards/" + compHand[0] + ".png");
+	img.src = ("img/cards/" + playerHand[1] + ".png");
+	img2.src = ("img/cards/" + compHand[1] + ".png");
 
 	//adds card image to the card slot of the game board
 	$('.playerCard').append(img);
